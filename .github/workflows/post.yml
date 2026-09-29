@@ -1,0 +1,33 @@
+name: post
+on:
+  schedule:
+    - cron: '2,32 * * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: post
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: post the next due reel
+        env:
+          FB_API: ${{ secrets.FB_API }}
+          FB_IG_ID: ${{ secrets.FB_IG_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: python3 runner.py
+      - name: save the log
+        run: |
+          if ! git diff --quiet posted.jsonl; then
+            git config user.name "dn-runner"
+            git config user.email "dn-runner@users.noreply.github.com"
+            git add posted.jsonl
+            git commit -m "posted $(date -u +%FT%TZ)"
+            git pull --rebase
+            git push
+          fi
