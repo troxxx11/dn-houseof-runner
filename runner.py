@@ -4,7 +4,11 @@
 Each run stays alive up to ~5.5 h: it sleeps until the next due slot in queue.json, posts it at
 the exact time, logs it in posted.jsonl (committed right away), and repeats. At the end the
 workflow re-dispatches itself, so one run is always waiting (GitHub's own cron is too late to rely
-on). Reel files are assets of this repo's public "queue" release, so Meta fetches them directly.
+on). Reel files and carousel slides are assets of this repo's public "queue" release, so Meta
+fetches them directly.
+Slots: REELS (default; `asset`, `audio_name`) or media_type CAROUSEL (`images` = 2-10 asset names,
+.jpg -> IMAGE child, .mp4 -> VIDEO child). Any slot may carry `collaborators` (IG usernames, Collab
+invite; the invitee accepts in the app). Local checks: --dry-run [KEY] / --container-test KEY.
 Env: FB_API, FB_IG_ID, FB_PAGE_TOKEN (secrets), GITHUB_REPOSITORY.
 """
 import os, json, time, subprocess, datetime, urllib.request, urllib.parse
@@ -57,22 +61,70 @@ def next_slot(q, done):
     return sorted(cand, key=lambda x: x['due_at'])[0] if cand else None
 
 
-def publish(s):
-    url = f"https://github.com/{REPO}/releases/download/queue/{s['asset']}"
-    c = api(f"{IG}/media", {'media_type': 'REELS', 'video_url': url, 'caption': s['caption'],
-                            'share_to_feed': 'true', 'audio_name': s['audio_name']}, 'POST')
-    if 'id' not in c: raise RuntimeError(f"container failed: {c}")
+def asset_url(name):
+    return f"https://github.com/{REPO}/releases/download/queue/{name}"
+
+
+def with_collabs(params, s):
+    """Optional Collab invite (Graph API `collaborators`, IG usernames). Each invitee accepts in the app."""
+    users = [u.lstrip('@') for u in (s.get('collaborators') or []) if u]
+    if users:
+        params['collaborators'] = json.dumps(users)
+    return params
+
+
+def container_requests(s):
+    """The container POSTs for a slot, in order: [(label, params)]. A CAROUSEL is its children
+    (is_carousel_item=true; .mp4 = VIDEO child, else IMAGE child) and then the parent, whose
+    `children` is filled in at run time. REELS (default) is one request, unchanged."""
+    if s.get('media_type', 'REELS').upper() == 'CAROUSEL':
+        reqs = []
+        for name in s['images']:
+            if name.lower().endswith(('.mp4', '.mov')):
+                reqs.append(('child', {'media_type': 'VIDEO', 'video_url': asset_url(name), 'is_carousel_item': 'true'}))
+            else:
+                reqs.append(('child', {'image_url': asset_url(name), 'is_carousel_item': 'true'}))
+        reqs.append(('parent', with_collabs({'media_type': 'CAROUSEL', 'children': None, 'caption': s['caption']}, s)))
+        return reqs
+    p = {'media_type': 'REELS', 'video_url': asset_url(s['asset']), 'caption': s['caption'],
+         'share_to_feed': 'true', 'audio_name': s['audio_name']}
+    return [('reel', with_collabs(p, s))]
+
+
+def wait_finished(cid, tries=60):
     sc, st = None, {}
-    for _ in range(60):
+    for _ in range(tries):
+        st = api(cid, {'fields': 'status_code,status'}); sc = st.get('status_code')
+        if sc not in ('IN_PROGRESS', None): break
         time.sleep(6)
-        st = api(c['id'], {'fields': 'status_code,status'}); sc = st.get('status_code')
-        if sc != 'IN_PROGRESS': break
-    if sc != 'FINISHED': raise RuntimeError(f"processing ended {sc}: {st.get('status')}")
-    r = api(f"{IG}/media_publish", {'creation_id': c['id']}, 'POST')
+    if sc != 'FINISHED': raise RuntimeError(f"processing of {cid} ended {sc}: {st.get('status') or st}")
+
+
+def create_container(s):
+    """Create (and wait for) every container of the slot; returns the id to publish."""
+    kids, cid = [], None
+    for kind, params in container_requests(s):
+        if kind == 'parent':
+            if not 2 <= len(kids) <= 10: raise RuntimeError(f"carousel needs 2-10 children, got {len(kids)}")
+            params = dict(params, children=','.join(kids))
+        c = api(f"{IG}/media", params, 'POST')
+        if 'id' not in c: raise RuntimeError(f"{kind} container failed: {c}")
+        wait_finished(c['id'])
+        if kind == 'child':
+            kids.append(c['id'])
+        else:
+            cid = c['id']
+    return cid
+
+
+def publish(s):
+    cid = create_container(s)
+    r = api(f"{IG}/media_publish", {'creation_id': cid}, 'POST')
     if 'id' not in r: raise RuntimeError(f"publish failed: {r}")
     time.sleep(4)
-    d = api(r['id'], {'fields': 'permalink,media_audio_type,timestamp'})
-    return {'media_id': r['id'], 'permalink': d.get('permalink'), 'media_audio_type': d.get('media_audio_type')}
+    d = api(r['id'], {'fields': 'permalink,media_audio_type,media_type,timestamp'})
+    return {'media_id': r['id'], 'permalink': d.get('permalink'), 'media_type': d.get('media_type'),
+            'media_audio_type': d.get('media_audio_type'), 'collaborators': s.get('collaborators') or []}
 
 
 def log_post(s, res):
@@ -121,5 +173,32 @@ def main():
             time.sleep(120)
 
 
+def test_cli(argv):
+    """Local checks, never publishes:
+      runner.py --dry-run [KEY ...]      print the container requests for the slots (no API calls)
+      runner.py --container-test KEY     create the real containers for KEY and stop before media_publish
+    """
+    q = json.load(open('queue.json'))
+    keys = [a for a in argv[1:] if not a.startswith('--')]
+    slots = [s for s in q['slots'] if not keys or s['key'] in keys]
+    if argv[0] == '--dry-run':
+        out = []
+        for s in slots:
+            reqs = [(k, dict(p, children='<child container ids>') if k == 'parent' else p)
+                    for k, p in container_requests(s)]
+            out.append({'key': s['key'], 'due_at': s['due_at'], 'status': s.get('status'),
+                        'media_type': s.get('media_type', 'REELS'), 'requests': reqs})
+        print(json.dumps(out, indent=1, ensure_ascii=False))
+    elif argv[0] == '--container-test':
+        for s in slots:
+            cid = create_container(s)
+            st = api(cid, {'fields': 'status_code,status'})
+            print(json.dumps({'key': s['key'], 'container': cid, 'status': st, 'published': False}))
+
+
 if __name__ == '__main__':
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] in ('--dry-run', '--container-test'):
+        test_cli(sys.argv[1:])
+    else:
+        main()
