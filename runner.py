@@ -65,9 +65,13 @@ def asset_url(name):
     return f"https://github.com/{REPO}/releases/download/queue/{name}"
 
 
+BRAND_BLOCK = ('darkno1se', 'darknoise', 'dark no1se')  # houseof is a shadow curator page: never link/name the artist
+
+
 def with_collabs(params, s):
-    """Optional Collab invite (Graph API `collaborators`, IG usernames). Each invitee accepts in the app."""
-    users = [u.lstrip('@') for u in (s.get('collaborators') or []) if u]
+    """Optional Collab invite (Graph API `collaborators`, IG usernames). Each invitee accepts in the app.
+    The artist account is never invited (user rule 2026-10-10)."""
+    users = [u.lstrip('@') for u in (s.get('collaborators') or []) if u and not any(b in u.lower() for b in BRAND_BLOCK)]
     if users:
         params['collaborators'] = json.dumps(users)
     return params
@@ -87,7 +91,9 @@ def container_requests(s):
         reqs.append(('parent', with_collabs({'media_type': 'CAROUSEL', 'children': None, 'caption': s['caption']}, s)))
         return reqs
     p = {'media_type': 'REELS', 'video_url': asset_url(s['asset']), 'caption': s['caption'],
-         'share_to_feed': 'true', 'audio_name': s['audio_name']}
+         'share_to_feed': 'true'}
+    if s.get('audio_name') and not any(b in s['audio_name'].lower() for b in BRAND_BLOCK):
+        p['audio_name'] = s['audio_name']
     return [('reel', with_collabs(p, s))]
 
 
