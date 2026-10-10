@@ -2,139 +2,6 @@
  "paused": false,
  "slots": [
   {
-   "key": "2026-09-30_houseof_1800#07",
-   "n": 7,
-   "jarvis_id": "hb-2026-09-30_1800-07",
-   "due_at": "2026-10-06T23:00:00+03:00",
-   "caption": "every time you say house music you are quoting a chicago club from 1977\n🎥 phil desforges via pexels\n#housemusic #musichistory #chicagohouse #frankieknuckles",
-   "track": "BLOOM",
-   "status": "skipped",
-   "audio_name": "DARKNO1SE - BLOOM",
-   "asset": "2026-09-30_houseof_1800_07.mp4"
-  },
-  {
-   "key": "2026-10_houseof#10",
-   "n": 10,
-   "jarvis_id": "hb-2026-10-10",
-   "due_at": "2026-10-07T21:00:00+03:00",
-   "caption": "four hours of someone else's playlist, then the aux comes home. house music restored.\n@darkno1se made this one\n🎥 adventures of ubi on youtube\n#housemusic #aux #djlife #puppylove",
-   "track": "Mantra",
-   "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
-   "asset": "2026-10_houseof_10.mp4"
-  },
-  {
-   "key": "2026-10_houseof#22",
-   "n": 22,
-   "jarvis_id": "hb-2026-10-22",
-   "due_at": "2026-10-07T21:00:00+03:00",
-   "caption": "house music ears\nsong: Mantra – @darkno1se\n🎥 Maymo (YouTube)",
-   "track": "Mantra",
-   "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Mantra",
-   "asset": "2026-10_houseof_22_f3.mp4"
-  },
-  {
-   "key": "2026-10-07_houseof_carousels#01",
-   "n": 1,
-   "jarvis_id": "hb-2026-10-07_carousels-01",
-   "due_at": "2026-10-08T19:00:00+03:00",
-   "caption": "every jatkot in kallio has all five. which one are you\nhelsinki techno, afters edition",
-   "track": null,
-   "status": "ready",
-   "media_type": "CAROUSEL",
-   "images": [
-    "2026-10-07_houseof_carousels_01_s01.jpg",
-    "2026-10-07_houseof_carousels_01_s02.jpg",
-    "2026-10-07_houseof_carousels_01_s03.jpg",
-    "2026-10-07_houseof_carousels_01_s04.jpg",
-    "2026-10-07_houseof_carousels_01_s05.jpg",
-    "2026-10-07_houseof_carousels_01_s06.jpg",
-    "2026-10-07_houseof_carousels_01_s07.jpg"
-   ]
-  },
-  {
-   "key": "2026-09-30_houseof_1800#13",
-   "n": 13,
-   "jarvis_id": "hb-2026-09-30_1800-13",
-   "due_at": "2026-10-08T21:00:00+03:00",
-   "caption": "it's never a small get-together\nsong: Fantasy – @darkno1se\n🎥 Tom Fisk via Pexels",
-   "track": "Fantasy",
-   "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Fantasy",
-   "asset": "2026-09-30_houseof_1800_13_f3.mp4"
-  },
-  {
-   "key": "2026-09-30_houseof_1800#09",
-   "n": 9,
-   "jarvis_id": "hb-2026-09-30_1800-09",
-   "due_at": "2026-10-08T23:00:00+03:00",
-   "caption": "1500 drones and it still undersells what that drop does to you\n@darkno1se made this one\n🎥 video of china on youtube\n#housemusic #rave #dronelightshow #edm",
-   "track": "Fantasy",
-   "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
-   "asset": "2026-09-30_houseof_1800_09.mp4"
-  },
-  {
-   "key": "2026-10_houseof#12",
-   "n": 12,
-   "jarvis_id": "hb-2026-10-12",
-   "due_at": "2026-10-09T21:00:00+03:00",
-   "caption": "3am, melodic techno, a sky like this. some nights you only understand years later.\nwhich night is yours?\n🎥 u/obsidiansolstice on reddit\n#melodictechno #3am #nostalgia #milkyway",
-   "track": "Hurricane",
-   "status": "skipped",
-   "audio_name": "DARKNO1SE - Hurricane",
-   "asset": "2026-10_houseof_12.mp4"
-  },
-  {
-   "key": "2026-10_houseof#16",
-   "n": 16,
-   "jarvis_id": "hb-2026-10-16",
-   "due_at": "2026-10-09T21:00:00+03:00",
-   "caption": "absolutely not\nsong: Fantasy – @darkno1se\n🎥 u/S30econdstoMars via r/MadeMeSmile",
-   "track": "Fantasy",
-   "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Fantasy",
-   "asset": "2026-10_houseof_16_f3.mp4"
-  },
-  {
-   "key": "2026-10-07_houseof_carousels#02",
-   "n": 2,
-   "jarvis_id": "hb-2026-10-07_carousels-02",
-   "due_at": "2026-10-10T19:00:00+03:00",
-   "caption": "where are you standing. be honest",
-   "track": null,
-   "status": "ready",
-   "media_type": "CAROUSEL",
-   "images": [
-    "2026-10-07_houseof_carousels_02_s01.jpg",
-    "2026-10-07_houseof_carousels_02_s02.jpg"
-   ]
-  },
-  {
-   "key": "2026-10_houseof#11",
-   "n": 11,
-   "jarvis_id": "hb-2026-10-11",
-   "due_at": "2026-10-10T21:00:00+03:00",
-   "caption": "camera off, one airpod in\nsong: Fantasy – @darkno1se\n🎥 via Pexels",
-   "track": "Fantasy",
-   "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Fantasy",
-   "asset": "2026-10_houseof_11_f3.mp4"
-  },
-  {
    "key": "2026-10_houseof#13",
    "n": 13,
    "jarvis_id": "hb-2026-10-13",
@@ -142,7 +9,6 @@
    "caption": "3am drive, red light, windows shaking. the car next to you knows what's playing.\nthe person you'd drive nowhere with at 3am needs this\n🎥 lil sakib via pexels\n#housemusic #housemusicmemes #relatable #nightdrive",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-10_houseof_13.mp4"
   },
   {
@@ -153,7 +19,6 @@
    "caption": "lights off, lights on, whole different creature. like you after the second drop\n🎥 via r/Damnthatsinteresting (u/Plus_Leopard9367)\n#techno #glowup #bassdrop #naturelovers",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_11.mp4"
   },
   {
@@ -161,13 +26,9 @@
    "n": 10,
    "jarvis_id": "hb-2026-09-30_1800-10",
    "due_at": "2026-10-11T21:00:00+03:00",
-   "caption": "the crowd was not ready\nsong: Mantra – @darkno1se\n🎥 Heavy Haul TV (YouTube)",
+   "caption": "the crowd was not ready\n🎥 Heavy Haul TV (YouTube)",
    "track": "Mantra",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_10_f3.mp4"
   },
   {
@@ -175,10 +36,9 @@
    "n": 14,
    "jarvis_id": "hb-2026-10-14",
    "due_at": "2026-10-11T21:30:00+03:00",
-   "caption": "episode two. still waiting on that group chat apology. house music keeps winning.\nsong: @darkno1se\nwho's the last holdout in your group?\n🎥 r λ f o via pexels\n#housemusic #fireworks #edmmemes #festival",
+   "caption": "episode two. still waiting on that group chat apology. house music keeps winning.\nwho's the last holdout in your group?\n🎥 r λ f o via pexels\n#housemusic #fireworks #edmmemes #festival",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_14.mp4"
   },
   {
@@ -189,7 +49,6 @@
    "caption": "melodic house, a city at night and nowhere to be. the friend you would go with knows\n🎥 kelly via pexels\n#melodichouse #citylights #nightvibes #wanderlust",
    "track": "BLOOM",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - BLOOM",
    "asset": "2026-09-30_houseof_1800_12.mp4"
   },
   {
@@ -215,13 +74,9 @@
    "n": 19,
    "jarvis_id": "hb-2026-09-30_1800-19",
    "due_at": "2026-10-12T21:00:00+03:00",
-   "caption": "lights down. phones away.\nsong: Mantra – @darkno1se\n🎥 Marc Mueller via Pexels",
+   "caption": "lights down. phones away.\n🎥 Marc Mueller via Pexels",
    "track": "Mantra",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_19_f3.mp4"
   },
   {
@@ -232,7 +87,6 @@
    "caption": "sorry. excuse me. sorry. made it with two bars to spare. festival season never ends.\n🎥 larry hack on youtube\n#festival #housemusic #clubbing #wingsuit",
    "track": "GATES",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - GATES",
    "asset": "2026-10_houseof_15.mp4"
   },
   {
@@ -240,13 +94,9 @@
    "n": 19,
    "jarvis_id": "hb-2026-10-19",
    "due_at": "2026-10-13T21:00:00+03:00",
-   "caption": "left mid-sentence\nsong: Fantasy – @darkno1se\n🎥 Tom and Mimi (YouTube)",
+   "caption": "left mid-sentence\n🎥 Tom and Mimi (YouTube)",
    "track": "Fantasy",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_19_f3.mp4"
   },
   {
@@ -257,7 +107,6 @@
    "caption": "hits different, part 1. northern lights, 4am, finland. part 2 tomorrow\n🎥 mohammed abubakr via pexels\n#melodictechno #northernlights #finland #4am",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_14.mp4"
   },
   {
@@ -268,9 +117,6 @@
    "caption": "ID in the comments",
    "track": "Fantasy",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
    "media_type": "CAROUSEL",
    "images": [
     "2026-10-07_houseof_carousels_04_s01.jpg",
@@ -283,13 +129,9 @@
    "n": 21,
    "jarvis_id": "hb-2026-09-30_1800-21",
    "due_at": "2026-10-14T21:00:00+03:00",
-   "caption": "two hours of \"excuse me, sorry, my friend is up there\" and it was worth it\n@darkno1se made this one\n🎥 peter k via pexels\n#festival #rave #lasershow #frontrow",
+   "caption": "two hours of \"excuse me, sorry, my friend is up there\" and it was worth it\n🎥 peter k via pexels\n#festival #rave #lasershow #frontrow",
    "track": "Hurricane",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Hurricane",
    "asset": "2026-09-30_houseof_1800_21.mp4"
   },
   {
@@ -300,7 +142,6 @@
    "caption": "sunrise after the afters. melodic house, sore feet, zero regrets.\n🎥 erfan haghighi via pexels\n#melodictechno #afterhours #sunrise #nostalgia",
    "track": "BLOOM",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - BLOOM",
    "asset": "2026-10_houseof_17.mp4"
   },
   {
@@ -311,7 +152,6 @@
    "caption": "hits different, part 2. empty roads, windows down, nobody talking. part 3 soon\n🎥 ahnaf piash via pexels\n#melodichouse #nightdrive #drivinghome #3am",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-09-30_houseof_1800_15.mp4"
   },
   {
@@ -319,13 +159,9 @@
    "n": 3,
    "jarvis_id": "hb-2026-09-30_1800-03",
    "due_at": "2026-10-15T21:00:00+03:00",
-   "caption": "the afters always finds a way\nsong: Mantra – @darkno1se\n🎥 u/AdvantageAdorable436 via r/nextfuckinglevel",
+   "caption": "the afters always finds a way\n🎥 u/AdvantageAdorable436 via r/nextfuckinglevel",
    "track": "Mantra",
    "status": "skipped",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_03_f3.mp4"
   },
   {
@@ -333,10 +169,9 @@
    "n": 18,
    "jarvis_id": "hb-2026-10-18",
    "due_at": "2026-10-15T21:00:00+03:00",
-   "caption": "first listen vs fortieth listen of a techno drop. it still hits, you just float now.\nthe track: @darkno1se\nhow many plays before you stop flinching?\n🎥 the voyage of fathom on youtube · bear: u/terrabyteterror on reddit\n#techno #waitforthedrop #bassdrop #housemusic",
+   "caption": "first listen vs fortieth listen of a techno drop. it still hits, you just float now.\nhow many plays before you stop flinching?\n🎥 the voyage of fathom on youtube · bear: u/terrabyteterror on reddit\n#techno #waitforthedrop #bassdrop #housemusic",
    "track": "Hurricane",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Hurricane",
    "asset": "2026-10_houseof_18.mp4"
   },
   {
@@ -344,13 +179,9 @@
    "n": 16,
    "jarvis_id": "hb-2026-09-30_1800-16",
    "due_at": "2026-10-16T21:00:00+03:00",
-   "caption": "same song, two completely different nights. which one is yours\nsong: Mantra – @darkno1se\n🎥 top: harrun muhammad via pexels / bottom: oye yogi via pexels\n#housemusic #festival #clubbing #thisorthat",
+   "caption": "same song, two completely different nights. which one is yours\n🎥 top: harrun muhammad via pexels / bottom: oye yogi via pexels\n#housemusic #festival #clubbing #thisorthat",
    "track": "Mantra",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_16_mantra.mp4"
   },
   {
@@ -358,10 +189,9 @@
    "n": 17,
    "jarvis_id": "hb-2026-09-30_1800-17",
    "due_at": "2026-10-16T23:00:00+03:00",
-   "caption": "hours of carving for one reveal. producers know this feeling\nthe track: @darkno1se\n🎥 via r/nextfuckinglevel (u/StrawberryLoviee_), sculptor unknown, dm for credit\n#techno #satisfying #sandart #waitforthedrop",
+   "caption": "hours of carving for one reveal. producers know this feeling\n🎥 via r/nextfuckinglevel (u/StrawberryLoviee_), sculptor unknown, dm for credit\n#techno #satisfying #sandart #waitforthedrop",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-09-30_houseof_1800_17.mp4"
   },
   {
@@ -369,13 +199,9 @@
    "n": 8,
    "jarvis_id": "hb-2026-09-30_1800-08",
    "due_at": "2026-10-17T21:00:00+03:00",
-   "caption": "4am confidence\nsong: Mantra – @darkno1se\n🎥 u/Doodlebug510 via r/AnimalsBeingDerps",
+   "caption": "4am confidence\n🎥 u/Doodlebug510 via r/AnimalsBeingDerps",
    "track": "Mantra",
    "status": "skipped",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_08_f3.mp4"
   },
   {
@@ -386,7 +212,6 @@
    "caption": "clear ice, one press, one reveal right on the techno drop. we read every timestamp.\n🎥 u/additional_chard3680 via r/oddlysatisfying\n#techno #waitforthedrop #oddlysatisfying #housemusic",
    "track": "GATES",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - GATES",
    "asset": "2026-10_houseof_20.mp4"
   },
   {
@@ -397,7 +222,6 @@
    "caption": "the ones who stay till the lights come on are the ones you keep\n🎥 via r/BeAmazed (u/MambaMentality24x2)\n#melodictechno #bestfriends #lastsong #nostalgia",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_18.mp4"
   },
   {
@@ -405,13 +229,9 @@
    "n": 25,
    "jarvis_id": "hb-2026-10-25",
    "due_at": "2026-10-18T21:00:00+03:00",
-   "caption": "no.\nsong: Fantasy – @darkno1se\n🎥 stock (licensed)",
+   "caption": "no.\n🎥 stock (licensed)",
    "track": "Fantasy",
    "status": "ready",
-   "collaborators": [
-    "darkno1se"
-   ],
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_25_f3.mp4"
   },
   {
@@ -422,7 +242,6 @@
    "caption": "rain on the windshield, melodic techno on shuffle, and suddenly it's 2019 again.\n🎥 evgenij mikhailov via pexels\n#melodictechno #nightdrive #rainyday #nostalgia",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_21.mp4"
   },
   {
@@ -433,7 +252,6 @@
    "caption": "the 3am drive home playlist, ranked. #1 is the audio on this reel. what is your #5\n🎥 drone point via pexels\n#melodictechno #nightdrive #playlist #3am",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-09-30_houseof_1800_20.mp4"
   },
   {
@@ -444,7 +262,6 @@
    "caption": "same club, same people, same 4am. melodic techno keeps that version of us alive.\nsomebody still at the afters needs to hear this\n🎥 cristian geza via pexels\n#melodictechno #afterhours #clubbing #nostalgia",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_23.mp4"
   },
   {
@@ -455,7 +272,6 @@
    "caption": "window seat, melodic house in your ears, already planning the next one.\nthe friend who owes you a festival trip knows what this means\n🎥 u/himelty via r/interestingasfuck\n#melodichouse #festivalseason #travel #housemusic",
    "track": "BLOOM",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - BLOOM",
    "asset": "2026-10_houseof_24.mp4"
   },
   {
@@ -466,7 +282,6 @@
    "caption": "every night out ends with one souvenir you cannot explain in the morning\n🎥 via r/AnimalsBeingDerps (u/AdorableBunnies)\n#housemusic #nightout #edmmemes #crab",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-09-30_houseof_1800_22.mp4"
   },
   {
@@ -477,7 +292,6 @@
    "caption": "small town nightlife has exactly one strobe and it is not the fun kind\n🎥 via r/oddlysatisfying (u/SnooRegrets8984)\n#housemusic #smalltown #oddlysatisfying #nightlife",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_23.mp4"
   },
   {
@@ -485,10 +299,9 @@
    "n": 26,
    "jarvis_id": "hb-2026-10-26",
    "due_at": "2026-10-23T21:00:00+03:00",
-   "caption": "rain, empty streets, melodic house on low. the part of the night nobody posts about.\nsong: @darkno1se\ndrive home or the party?\n🎥 unknown, dm for credit\n#melodichouse #nightdrive #rainynight #housemusic",
+   "caption": "rain, empty streets, melodic house on low. the part of the night nobody posts about.\ndrive home or the party?\n🎥 unknown, dm for credit\n#melodichouse #nightdrive #rainynight #housemusic",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-10_houseof_26.mp4"
   },
   {
@@ -499,7 +312,6 @@
    "caption": "every \"early morning tomorrow\" has a price and it is exactly one song\n🎥 serg alesenko via pexels\n#housemusic #groupchat #nightout #relatable",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-09-30_houseof_1800_24.mp4"
   },
   {
@@ -510,7 +322,6 @@
    "caption": "episode three and even the sky picked a side. house music doesn't lose arguments.\nstill waiting on that group chat\n🎥 ricky esquivel via pexels\n#housemusic #techno #thunderstorm #edmmemes",
    "track": "NEXUS",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - NEXUS",
    "asset": "2026-10_houseof_27.mp4"
   },
   {
@@ -521,7 +332,6 @@
    "caption": "festival campsite at 4am. your legs are done, your ears are not\n🎥 via r/Damnthatsinteresting (u/anikkundu1998)\n#melodictechno #festivallife #camping #4am",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_25.mp4"
   },
   {
@@ -532,7 +342,6 @@
    "caption": "you don't need the name to know the part. melodic house works like that.\nfor the one who always asks \"what song is this\"\n🎥 unknown (two clips), dm for credit\n#housemusic #melodichouse #roadtrip #edm",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_28.mp4"
   },
   {
@@ -540,10 +349,9 @@
    "n": 26,
    "jarvis_id": "hb-2026-09-30_1800-26",
    "due_at": "2026-10-25T23:00:00+02:00",
-   "caption": "day 4. still no apology from the group chat. we go again\nsong: @darkno1se\n🎥 belén montero via pexels\n#housemusic #confetti #festival #dayfour",
+   "caption": "day 4. still no apology from the group chat. we go again\n🎥 belén montero via pexels\n#housemusic #confetti #festival #dayfour",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-09-30_houseof_1800_26.mp4"
   },
   {
@@ -554,7 +362,6 @@
    "caption": "arriving late on purpose. house music doesn't really start before 1am anyway.\n🎥 unknown, dm for credit\n#clubbing #housemusic #edmmemes #nightlife",
    "track": "Mantra",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Mantra",
    "asset": "2026-10_houseof_29.mp4"
   },
   {
@@ -565,7 +372,6 @@
    "caption": "fastest anyone has ever left a smoking area. the intro was 8 bars long\n🎥 via r/NatureIsFuckingLit (u/AlternativeClock9250)\n#techno #smokingarea #clubbing #edmmemes",
    "track": "NEXUS",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - NEXUS",
    "asset": "2026-09-30_houseof_1800_27.mp4"
   },
   {
@@ -573,10 +379,9 @@
    "n": 30,
    "jarvis_id": "hb-2026-10-30",
    "due_at": "2026-10-27T21:00:00+02:00",
-   "caption": "\"on my way\" has meant a lot of things over the years. house music keeps the receipts.\nthe track: @darkno1se\n🎥 stock clip, dm for credit\n#housemusic #afterhours #sunrise #relatable",
+   "caption": "\"on my way\" has meant a lot of things over the years. house music keeps the receipts.\n🎥 stock clip, dm for credit\n#housemusic #afterhours #sunrise #relatable",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-10_houseof_30.mp4"
   },
   {
@@ -587,7 +392,6 @@
    "caption": "day 5. we set off fireworks, they still say it all sounds the same\n🎥 pixabay via pexels\n#housemusic #fireworks #rave #housemusicmemes",
    "track": "Fantasy",
    "status": "skipped",
-   "audio_name": "DARKNO1SE - Fantasy",
    "asset": "2026-09-30_houseof_1800_28.mp4"
   }
  ]
