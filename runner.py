@@ -53,11 +53,18 @@ def failed_keys():
     return {json.loads(l)['key'] for l in open('failed.jsonl') if l.strip()} if os.path.exists('failed.jsonl') else set()
 
 
+def in_window(t):
+    # audit 2026-10-11: posts at 23:00+ get ~1/4 of the views; never post 00:00-17:00 Helsinki (UTC+3/+2)
+    h = (t + datetime.timedelta(hours=3 if 3 < t.month < 11 else 2)).hour
+    return 17 <= h <= 23
+
+
 def next_slot(q, done):
     keys = {d['key'] for d in done} | failed_keys()
     t = now()
     cand = [s for s in q['slots'] if s['key'] not in keys and s.get('status', 'ready') == 'ready'
-            and (t - datetime.datetime.fromisoformat(s['due_at'])).total_seconds() < LATE_LIMIT_H * 3600]
+            and (t - datetime.datetime.fromisoformat(s['due_at'])).total_seconds() < LATE_LIMIT_H * 3600
+            and in_window(t)]
     return sorted(cand, key=lambda x: x['due_at'])[0] if cand else None
 
 
