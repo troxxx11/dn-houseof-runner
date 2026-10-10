@@ -58,7 +58,7 @@
    "due_at": "2026-10-12T19:00:00+03:00",
    "caption": "kokkola on a friday, explained. send it to the one who says just one drink\nfinnish nightlife",
    "track": null,
-   "status": "ready",
+   "status": "skipped",
    "media_type": "CAROUSEL",
    "images": [
     "2026-10-07_houseof_carousels_03_s01.jpg",
@@ -116,7 +116,7 @@
    "due_at": "2026-10-14T19:00:00+03:00",
    "caption": "ID in the comments",
    "track": "Fantasy",
-   "status": "ready",
+   "status": "skipped",
    "media_type": "CAROUSEL",
    "images": [
     "2026-10-07_houseof_carousels_04_s01.jpg",
