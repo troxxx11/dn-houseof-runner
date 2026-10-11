@@ -1,16 +1,6 @@
 {
- "paused": true,
+ "paused": false,
  "slots": [
-  {
-   "key": "2026-10_houseof#13",
-   "n": 13,
-   "jarvis_id": "hb-2026-10-13",
-   "due_at": "2026-10-10T21:30:00+03:00",
-   "caption": "3am drive, red light, windows shaking. the car next to you knows what's playing.\nthe person you'd drive nowhere with at 3am needs this\n🎥 lil sakib via pexels\n#housemusic #housemusicmemes #relatable #nightdrive",
-   "track": "Mantra",
-   "status": "skipped",
-   "asset": "2026-10_houseof_13.mp4"
-  },
   {
    "key": "2026-09-30_houseof_1800#11",
    "n": 11,
@@ -20,6 +10,16 @@
    "track": "Mantra",
    "status": "skipped",
    "asset": "2026-09-30_houseof_1800_11.mp4"
+  },
+  {
+   "key": "2026-10-11_houseof_daily#01",
+   "n": 1,
+   "jarvis_id": "hb-2026-10-11_daily-01",
+   "due_at": "2026-10-11T20:00:00+03:00",
+   "caption": "which one are you\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "Mantra",
+   "status": "ready",
+   "asset": "2026-10-11_houseof_daily_01.mp4"
   },
   {
    "key": "2026-09-30_houseof_1800#10",
