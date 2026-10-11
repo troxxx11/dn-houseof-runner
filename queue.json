@@ -2,16 +2,6 @@
  "paused": false,
  "slots": [
   {
-   "key": "2026-09-30_houseof_1800#11",
-   "n": 11,
-   "jarvis_id": "hb-2026-09-30_1800-11",
-   "due_at": "2026-10-10T23:00:00+03:00",
-   "caption": "lights off, lights on, whole different creature. like you after the second drop\n🎥 via r/Damnthatsinteresting (u/Plus_Leopard9367)\n#techno #glowup #bassdrop #naturelovers",
-   "track": "Mantra",
-   "status": "skipped",
-   "asset": "2026-09-30_houseof_1800_11.mp4"
-  },
-  {
    "key": "2026-10-11_houseof_daily#01",
    "n": 1,
    "jarvis_id": "hb-2026-10-11_daily-01",
@@ -70,6 +60,16 @@
    ]
   },
   {
+   "key": "2026-10-11_houseof_daily#02",
+   "n": 2,
+   "jarvis_id": "hb-2026-10-11_daily-02",
+   "due_at": "2026-10-12T20:00:00+03:00",
+   "caption": "she is NOT going home\n🎵 The Same Persons - Versace | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "NCS Versace",
+   "status": "ready",
+   "asset": "2026-10-11_houseof_daily_02.mp4"
+  },
+  {
    "key": "2026-09-30_houseof_1800#19",
    "n": 19,
    "jarvis_id": "hb-2026-09-30_1800-19",
@@ -88,6 +88,16 @@
    "track": "GATES",
    "status": "skipped",
    "asset": "2026-10_houseof_15.mp4"
+  },
+  {
+   "key": "2026-10-11_houseof_daily#03",
+   "n": 3,
+   "jarvis_id": "hb-2026-10-11_daily-03",
+   "due_at": "2026-10-13T20:00:00+03:00",
+   "caption": "send this to a raver\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "Hurricane",
+   "status": "ready",
+   "asset": "2026-10-11_houseof_daily_03.mp4"
   },
   {
    "key": "2026-10_houseof#19",
@@ -125,6 +135,16 @@
    ]
   },
   {
+   "key": "2026-10-11_houseof_daily#04",
+   "n": 4,
+   "jarvis_id": "hb-2026-10-11_daily-04",
+   "due_at": "2026-10-14T20:00:00+03:00",
+   "caption": "every single time\n🎵 Zack Griffin - Feel It | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "NCS Feel It",
+   "status": "ready",
+   "asset": "2026-10-11_houseof_daily_04.mp4"
+  },
+  {
    "key": "2026-09-30_houseof_1800#21",
    "n": 21,
    "jarvis_id": "hb-2026-09-30_1800-21",
@@ -155,6 +175,16 @@
    "asset": "2026-09-30_houseof_1800_15.mp4"
   },
   {
+   "key": "2026-10-11_houseof_daily#05",
+   "n": 5,
+   "jarvis_id": "hb-2026-10-11_daily-05",
+   "due_at": "2026-10-15T20:00:00+03:00",
+   "caption": "yep.\n🎵 The Same Persons - Versace | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "NCS Versace",
+   "status": "ready",
+   "asset": "2026-10-11_houseof_daily_05.mp4"
+  },
+  {
    "key": "2026-09-30_houseof_1800#03",
    "n": 3,
    "jarvis_id": "hb-2026-09-30_1800-03",
@@ -173,6 +203,16 @@
    "track": "Hurricane",
    "status": "skipped",
    "asset": "2026-10_houseof_18.mp4"
+  },
+  {
+   "key": "2026-10-11_houseof_daily#06",
+   "n": 6,
+   "jarvis_id": "hb-2026-10-11_daily-06",
+   "due_at": "2026-10-16T20:00:00+03:00",
+   "caption": "it's fine. i'm fine.\n🎵 Zack Griffin - Feel It | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "NCS Feel It",
+   "status": "ready",
+   "asset": "2026-10-11_houseof_daily_06.mp4"
   },
   {
    "key": "2026-09-30_houseof_1800#16",
