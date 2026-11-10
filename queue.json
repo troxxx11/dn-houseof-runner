@@ -10,6 +10,26 @@
    "track": "NCS Feel It",
    "status": "ready",
    "asset": "2026-11-10_houseof_daily_02.mp4"
+  },
+  {
+   "key": "2026-11-12_houseof_daily#01",
+   "n": 1,
+   "jarvis_id": "hb-2026-11-12_daily-01",
+   "due_at": "2026-11-12T20:00:00+02:00",
+   "caption": "send this, say nothing\n#rave #techno #housemusic #ravememes #raveculture",
+   "track": "Mantra",
+   "status": "ready",
+   "asset": "2026-11-12_houseof_daily_01.mp4"
+  },
+  {
+   "key": "2026-11-12_houseof_daily#02",
+   "n": 2,
+   "jarvis_id": "hb-2026-11-12_daily-02",
+   "due_at": "2026-11-13T20:00:00+02:00",
+   "caption": "did it work?\n🎵 The Same Persons - Versace | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #illusion #opticalillusion",
+   "track": "NCS Versace",
+   "status": "ready",
+   "asset": "2026-11-12_houseof_daily_02.mp4"
   }
  ]
 }
