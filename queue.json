@@ -20,6 +20,26 @@
    "track": "NCS Versace",
    "status": "ready",
    "asset": "2026-11-12_houseof_daily_02.mp4"
+  },
+  {
+   "key": "2026-11-14_houseof_daily#01",
+   "n": 1,
+   "jarvis_id": "hb-2026-11-14_daily-01",
+   "due_at": "2026-11-14T20:00:00+02:00",
+   "caption": "maestro.\n🎵 Zack Griffin - Feel It | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "NCS Feel It",
+   "status": "ready",
+   "asset": "2026-11-14_houseof_daily_01.mp4"
+  },
+  {
+   "key": "2026-11-14_houseof_daily#02",
+   "n": 2,
+   "jarvis_id": "hb-2026-11-14_daily-02",
+   "due_at": "2026-11-15T20:00:00+02:00",
+   "caption": "what's your score?\n🎵 The Same Persons - Versace | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #ravememes #clubbing",
+   "track": "NCS Versace",
+   "status": "ready",
+   "asset": "2026-11-14_houseof_daily_02.mp4"
   }
  ]
 }
