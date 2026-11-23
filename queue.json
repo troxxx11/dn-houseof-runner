@@ -1,15 +1,4 @@
 {
  "paused": false,
- "slots": [
-  {
-   "key": "2026-11-22_houseof_daily#02",
-   "n": 2,
-   "jarvis_id": "hb-2026-11-22_daily-02",
-   "due_at": "2026-11-23T20:00:00+02:00",
-   "caption": "now you know\n#rave #techno #housemusic #bass #ravescience",
-   "track": "Mantra",
-   "status": "ready",
-   "asset": "2026-11-22_houseof_daily_02.mp4"
-  }
- ]
+ "slots": []
 }
