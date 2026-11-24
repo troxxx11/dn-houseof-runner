@@ -30,6 +30,26 @@
    "track": "NCS Versace",
    "status": "ready",
    "asset": "2026-11-26_houseof_daily_02.mp4"
+  },
+  {
+   "key": "2026-11-28_houseof_daily#01",
+   "n": 1,
+   "jarvis_id": "hb-2026-11-28_daily-01",
+   "due_at": "2026-11-28T20:00:00+02:00",
+   "caption": "forecast for tonight\n🎵 Zack Griffin - Feel It | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #festival #weekend",
+   "track": "NCS Feel It",
+   "status": "ready",
+   "asset": "2026-11-28_houseof_daily_01.mp4"
+  },
+  {
+   "key": "2026-11-28_houseof_daily#02",
+   "n": 2,
+   "jarvis_id": "hb-2026-11-28_daily-02",
+   "due_at": "2026-11-29T20:00:00+02:00",
+   "caption": "you know who\n#rave #techno #housemusic #afterparty #ravememes",
+   "track": "Mantra",
+   "status": "ready",
+   "asset": "2026-11-28_houseof_daily_02.mp4"
   }
  ]
 }
