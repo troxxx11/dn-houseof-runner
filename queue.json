@@ -1,4 +1,25 @@
 {
  "paused": false,
- "slots": []
+ "slots": [
+  {
+   "key": "2026-11-24_houseof_daily#01",
+   "n": 1,
+   "jarvis_id": "hb-2026-11-24_daily-01",
+   "due_at": "2026-11-24T20:00:00+02:00",
+   "caption": "did it work?\n🎵 The Same Persons - Versace | NCS (NoCopyrightSounds)\n#rave #techno #illusion #housemusic #ravememes",
+   "track": "NCS Versace",
+   "status": "ready",
+   "asset": "2026-11-24_houseof_daily_01.mp4"
+  },
+  {
+   "key": "2026-11-24_houseof_daily#02",
+   "n": 2,
+   "jarvis_id": "hb-2026-11-24_daily-02",
+   "due_at": "2026-11-25T20:00:00+02:00",
+   "caption": "same thing really\n🎵 Zack Griffin - Feel It | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #space #ravememes",
+   "track": "NCS Feel It",
+   "status": "ready",
+   "asset": "2026-11-24_houseof_daily_02.mp4"
+  }
+ ]
 }
