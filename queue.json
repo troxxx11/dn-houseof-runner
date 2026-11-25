@@ -2,16 +2,6 @@
  "paused": false,
  "slots": [
   {
-   "key": "2026-11-24_houseof_daily#02",
-   "n": 2,
-   "jarvis_id": "hb-2026-11-24_daily-02",
-   "due_at": "2026-11-25T20:00:00+02:00",
-   "caption": "same thing really\n🎵 Zack Griffin - Feel It | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #space #ravememes",
-   "track": "NCS Feel It",
-   "status": "ready",
-   "asset": "2026-11-24_houseof_daily_02.mp4"
-  },
-  {
    "key": "2026-11-26_houseof_daily#01",
    "n": 1,
    "jarvis_id": "hb-2026-11-26_daily-01",
