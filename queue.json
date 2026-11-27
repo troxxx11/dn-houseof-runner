@@ -2,16 +2,6 @@
  "paused": false,
  "slots": [
   {
-   "key": "2026-11-26_houseof_daily#02",
-   "n": 2,
-   "jarvis_id": "hb-2026-11-26_daily-02",
-   "due_at": "2026-11-27T20:00:00+02:00",
-   "caption": "how many did you get?\n🎵 The Same Persons - Versace | NCS (NoCopyrightSounds)\n#rave #techno #housemusic #puzzle #ravememes",
-   "track": "NCS Versace",
-   "status": "ready",
-   "asset": "2026-11-26_houseof_daily_02.mp4"
-  },
-  {
    "key": "2026-11-28_houseof_daily#01",
    "n": 1,
    "jarvis_id": "hb-2026-11-28_daily-01",
